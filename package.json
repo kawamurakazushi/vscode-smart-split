@@ -1,8 +1,9 @@
 {
   "name": "vscode-smart-split",
   "displayName": "vscode-smart-split",
-  "description": "",
+  "description": "Smart Split",
   "version": "0.0.1",
+  "publisher": "kawamurakazushi",
   "engines": {
     "vscode": "^1.44.0"
   },
@@ -26,6 +27,7 @@
       }
     ]
   },
+
   "scripts": {
     "vscode:prepublish": "yarn run compile",
     "compile": "tsc -p ./",
@@ -39,5 +41,9 @@
     "tslint": "^5.12.1",
     "@types/node": "^10.12.21",
     "@types/mocha": "^2.2.42"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kawamurakazushi/vscode-smart-split"
   }
 }
